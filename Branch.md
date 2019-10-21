@@ -16,6 +16,4 @@ git stash drop					                    #| Supprime le premier stash.
 git tag 					                        #| liste les tag.
 git tag v1					                        #| Créer un tag legé (tres peu utilisé).
 git tag -l 'v8.*'				                    #| Rechercher des tag particuliers.
-git tag -a v1.0 -m "version 1 de l'application"     #| Créer un tag noté avec un message.
-git tag -a v1.0.1 -m "version 1.0.1" 9fceb2	        #| Etiquetter après coup sur un commit donné.
 git show v8.2					                    #| Voir un tag Noté.

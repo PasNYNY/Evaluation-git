@@ -21,6 +21,4 @@ git reset HEAD~1			    	#| Annule le dernier commit et met remonte au dernier
 git reset "Hachagecommit"		    #| annule le commit.
 git reset --hard HEAD~1				#| Annule le dernier commit et supprime les modifications.
 git checkout 9b85968 index.html	    #| Permet de revenir avant les modifications.
-git revert 419e298				    #| la commande suivante elle va créer un commit revert d’annulation du dernier commit réalisé .
-
-
+git revert 419e298				    #| la commande suivante elle va créer un commit revert d’annulation du dernier commit réalisé.
